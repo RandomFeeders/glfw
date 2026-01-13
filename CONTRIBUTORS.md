@@ -45,6 +45,7 @@ video tutorials.
  - Bailey Cosier
  - Noel Cower
  - CuriouserThing
+ - Bill Currie
  - Jason Daly
  - danhambleton
  - Jarrod Davis
@@ -64,11 +65,13 @@ video tutorials.
  - Nikita Fediuchin
  - Felipe Ferreira
  - Michael Fogleman
+ - forworldm
  - Jason Francis
  - Gerald Franz
  - Mário Freitas
  - GeO4d
  - Marcus Geelnard
+ - Gegy
  - ghuser404
  - Charles Giessen
  - Ryan C. Gordon
@@ -76,11 +79,14 @@ video tutorials.
  - Kovid Goyal
  - Kevin Grandemange
  - Eloi Marín Gratacós
+ - Grzesiek11
  - Stefan Gustavson
  - Andrew Gutekanst
  - Stephen Gutekanst
  - Jonathan Hale
+ - Daniel Hauser
  - hdf89shfdfs
+ - Moritz Heinemann
  - Sylvain Hellegouarch
  - Björn Hempel
  - Matthew Henry
@@ -98,6 +104,7 @@ video tutorials.
  - JannikGM
  - Erik S. V. Jansson
  - jjYBdx4IL
+ - Peter Johnson
  - Toni Jovanoski
  - Arseny Kapoulkine
  - Cem Karan
@@ -120,11 +127,14 @@ video tutorials.
  - Anders Lindqvist
  - Leon Linhart
  - Marco Lizza
+ - lo-v-ol
  - Eyal Lotem
  - Aaron Loucks
+ - Ned Loynd
  - Luflosi
  - lukect
  - Tristam MacDonald
+ - Jean-Luc Mackail
  - Hans Mackowiak
  - Ramiro Magno
  - Дмитри Малышев
@@ -139,6 +149,7 @@ video tutorials.
  - Marcel Metz
  - Liam Middlebrook
  - Ave Milia
+ - Icyllis Milica
  - Jonathan Miller
  - Kenneth Miller
  - Bruce Mitchener
@@ -152,6 +163,7 @@ video tutorials.
  - Martins Mozeiko
  - James Murphy
  - Julian Møller
+ - NateIsStalling
  - ndogxj
  - F. Nedelec
  - Kristian Nielsen
@@ -193,17 +205,20 @@ video tutorials.
  - Aleksey Rybalkin
  - Mikko Rytkönen
  - Riku Salminen
+ - Anton Samokhvalov
  - Brandon Schaefer
  - Sebastian Schuberth
  - Christian Sdunek
  - Matt Sealey
  - Steve Sexton
  - Arkady Shapkin
+ - Mingjie Shen
  - Ali Sherief
  - Yoshiki Shibukawa
  - Dmitri Shuralyov
  - Joao da Silva
  - Daniel Sieger
+ - Michael Skec
  - Daniel Skorupski
  - Slemmie
  - Bradley Smith
@@ -220,6 +235,7 @@ video tutorials.
  - Paul Sultana
  - Nathan Sweet
  - TTK-Bandit
+ - Nuno Teixeira
  - Sergey Tikhomirov
  - Arthur Tombs
  - TronicLabs
@@ -232,14 +248,17 @@ video tutorials.
  - Jari Vetoniemi
  - Ricardo Vieira
  - Nicholas Vitovitch
+ - Vladimír Vondruš
  - Simon Voordouw
  - Corentin Wallez
  - Torsten Walluhn
  - Patrick Walton
+ - Jim Wang
  - Xo Wang
  - Jay Weisskopf
  - Frank Wille
  - Richard A. Wilkes
+ - Andy Williams
  - Tatsuya Yatagawa
  - Ryogo Yoshimura
  - Rácz Zalán

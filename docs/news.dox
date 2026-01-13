@@ -37,6 +37,16 @@ SDK](https://vulkan.lunarg.com/).
 For more information see @ref vulkan_guide.
 
 
+@subsubsection wayland_libdecor_33 Wayland libdecor decorations
+
+GLFW now supports improved fallback window decorations via
+[libdecor](https://gitlab.freedesktop.org/libdecor/libdecor).
+
+Support for libdecor can be toggled before GLFW is initialized with the
+[GLFW_WAYLAND_LIBDECOR](@ref GLFW_WAYLAND_LIBDECOR_hint) init hint.  It is
+enabled by default.
+
+
 @subsubsection content_scale_33 Content scale queries for DPI-aware rendering
 
 GLFW now provides content scales for windows and monitors, i.e. the ratio
@@ -312,7 +322,7 @@ Starting with GLFW 3.3.7, events posted with @ref glfwPostEmptyEvent now use a s
 unnamed pipe instead of sending an X11 client event to the helper window.
 
 
-@subsubsection wayland_alpha_34 Frambuffer may lack alpha channel on older Wayland systems
+@subsubsection wayland_alpha_33 Framebuffer may lack alpha channel on older Wayland systems
 
 On Wayland, when creating an EGL context on a machine lacking the new
 `EGL_EXT_present_opaque` extension, the @ref GLFW_ALPHA_BITS window hint will be
@@ -443,6 +453,9 @@ Use Wayland or X11 instead.
  - @ref GLFWwindowmaximizefun
  - @ref GLFWwindowcontentscalefun
  - @ref GLFWgamepadstate
+ - @ref GLFW_WAYLAND_LIBDECOR
+ - @ref GLFW_WAYLAND_PREFER_LIBDECOR
+ - @ref GLFW_WAYLAND_DISABLE_LIBDECOR
 
 
 @subsubsection constants_33 New constants in version 3.3

@@ -304,6 +304,7 @@ static int extensionSupportedEGL(const char* extension)
 static GLFWglproc getProcAddressEGL(const char* procname)
 {
     _GLFWwindow* window = _glfwPlatformGetTls(&_glfw.contextSlot);
+    assert(window != NULL);
 
     if (window->context.egl.client)
     {
@@ -587,16 +588,16 @@ GLFWbool _glfwCreateContextEGL(_GLFWwindow* window,
             flags |= EGL_CONTEXT_OPENGL_ROBUST_ACCESS_BIT_KHR;
         }
 
-        if (ctxconfig->noerror)
-        {
-            if (_glfw.egl.KHR_create_context_no_error)
-                setAttrib(EGL_CONTEXT_OPENGL_NO_ERROR_KHR, GLFW_TRUE);
-        }
-
         if (ctxconfig->major != 1 || ctxconfig->minor != 0)
         {
             setAttrib(EGL_CONTEXT_MAJOR_VERSION_KHR, ctxconfig->major);
             setAttrib(EGL_CONTEXT_MINOR_VERSION_KHR, ctxconfig->minor);
+        }
+
+        if (ctxconfig->noerror)
+        {
+            if (_glfw.egl.KHR_create_context_no_error)
+                setAttrib(EGL_CONTEXT_OPENGL_NO_ERROR_KHR, GLFW_TRUE);
         }
 
         if (mask)
@@ -650,8 +651,10 @@ GLFWbool _glfwCreateContextEGL(_GLFWwindow* window,
     if (!fbconfig->doublebuffer)
         setAttrib(EGL_RENDER_BUFFER, EGL_SINGLE_BUFFER);
 
+#if defined(_GLFW_WAYLAND)
     if (_glfw.egl.EXT_present_opaque)
         setAttrib(EGL_PRESENT_OPAQUE_EXT, !fbconfig->transparent);
+#endif // _GLFW_WAYLAND
 
     setAttrib(EGL_NONE, EGL_NONE);
 
